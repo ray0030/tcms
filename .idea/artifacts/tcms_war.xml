@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tcms:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="web-wakenshen.war">
+      <element id="artifact" artifact-name="tcms:war exploded" />
+    </root>
+  </artifact>
+</component>
