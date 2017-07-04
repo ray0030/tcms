@@ -37,7 +37,7 @@
         </div>
         <h3>欢迎登录</h3>
 
-        <form class="m-t" role="form" action="<c:url value='/platform/login'/>" method="post">
+        <form class="m-t" role="form" action="login" method="post">
             <div class="form-group">
                 <input type="email" class="form-control" placeholder="用户名" required="">
             </div>
