@@ -39,10 +39,10 @@
 
         <form class="m-t" role="form" action="login" method="post">
             <div class="form-group">
-                <input type="email" class="form-control" placeholder="用户名" required="">
+                <input id="userid" name="userid" class="form-control" placeholder="用户名" required="">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" placeholder="密码" required="">
+                <input type="password" id="password" name="password" class="form-control" placeholder="密码" required="">
             </div>
             <button type="submit" class="btn btn-primary block full-width m-b" value="Login">登 录</button>
 
